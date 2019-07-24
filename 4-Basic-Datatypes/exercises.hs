@@ -24,3 +24,5 @@ identity :: a -> a
 identity thing = thing
 
 first :: (a, b) -> a
+first = fst
+
